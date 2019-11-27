@@ -6,11 +6,9 @@
 
 **WALKTHROUGH ON HOW TO GET THE WEB APP RUNNING**-------------------------------------------------------------------------------------------
 1. Unzip the source code folder and place it in your laravel root directory, eg. I put it in my 'www' folder inside 'laragon'.
-2. Place the database correct: There are two ways to do this.
-   (i)Way 1: Go on your php.myadmin or whichever mySQL server you are using, then import the "fyp6_calendar.sql' file. The database will be 
-      automatically added to your mySQL server.
-   (ii)Way 2: Place the 'fyp_calendar' folder in the database directory of your mysql.eg: my database dir path is C:\laragon\data\mysql
-3. Configure your database: Go on your prject/source code foler. Open .env file. 
+2. Go on your php.myadmin or whichever mySQL server you are using,create a database called 'fyp6_calendar' then import the "fyp6_calendar.sql' file in the database. The database will be imported. 
+     
+3. Configure your database: Go on your project/source code foler. Open .env file. 
     
     if your database username is root and has no password, you dont need to change the file.
     
